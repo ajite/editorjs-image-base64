@@ -4,11 +4,11 @@ Add images in base64 in the editor instead of uploading to a server.
 
 # Install
 
-    npm install --save https://github.com/ajite/editorjs-image-base64
+    npm install --save @ajite/editorjs-image-base64
 
 # Usage
 
-    import uploader  from '@editorjs/image-base64';
+    import uploader  from '@ajite/editorjs-image-base64';
 
     var editors = new EditorJS({
         autofocus: true,
