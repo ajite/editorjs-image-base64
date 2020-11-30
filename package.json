@@ -1,0 +1,31 @@
+{
+  "name": "@editorjs/image-base64",
+  "version": "0.0.1",
+  "keywords": [
+    "codex editor",
+    "tool",
+    "comment",
+    "editorjs",
+    "editor.js",
+    "editor"
+  ],
+  "description": "Upload Image in base64 in Editor.js",
+  "license": "MIT",
+  "repository": "https://github.com/ajite/editorjs-comment",
+  "main": "./dist/bundle.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development --watch"
+  },
+  "author": {
+    "name": "Augustin Cisterne-Kaas",
+    "email": "augustin@sparkmodel.com"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
